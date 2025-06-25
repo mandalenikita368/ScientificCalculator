@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Scientific Calculator</string>
+    <string name="enter_expression">Enter Expression</string>
+    <string name="clear">Clear</string>
+    <string name="backspace">Backspace</string>
+    <string name="open_parenthesis">(</string>
+    <string name="close_parenthesis">)</string>
+    <string name="divide">Divide</string>
+    <string name="modulus">Modulus</string>
+    <string name="power">Power</string>
+    <string name="equals">Equals</string>
+    <string name="answer">Ans</string>
+    <string name="dot">Dot</string>
+    <string name="pi">Pi</string>
+    <string name="e_constant">E</string>
+    <string name="square_root">Square Root</string>
+    <string name="exponential">Exponential</string>
+    <string name="natural_log">Ln</string>
+    <string name="logarithm">Log</string>
+    <string name="absolute">Abs</string>
+    <string name="sine">Sin</string>
+    <string name="cosine">Cos</string>
+    <string name="tangent">Tan</string>
+    <string name="secant">Sec</string>
+    <string name="cosecant">Cosec</string>
+    <string name="asin">asin</string>
+    <string name="acos">acos</string>
+    <string name="atan">atan</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+</resources>

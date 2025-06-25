@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "703489246278",
+    "project_id": "scientific-calculator-ac05c",
+    "storage_bucket": "scientific-calculator-ac05c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703489246278:android:cdee2298871279bbb37647",
+        "android_client_info": {
+          "package_name": "com.example.scientificcalculator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB26WcxdjUzjMLImMlgEdj12nsfBVBX_vE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

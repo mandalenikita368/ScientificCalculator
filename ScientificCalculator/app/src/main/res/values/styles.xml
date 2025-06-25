@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CalculatorButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:background">#3A3A3A</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="OperatorButton" parent="CalculatorButton">
+        <item name="android:background">#F39C12</item>
+    </style>
+
+    <style name="FunctionButton" parent="CalculatorButton">
+        <item name="android:background">#16A085</item>
+    </style>
+
+    <style name="NavigationButton" parent="CalculatorButton">
+        <item name="android:background">#2C3E50</item>
+    </style>
+
+    <style name="EqualButton" parent="CalculatorButton">
+        <item name="android:background">#E74C3C</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="ClearButton" parent="CalculatorButton">
+        <item name="android:background">#C0392B</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+</resources>

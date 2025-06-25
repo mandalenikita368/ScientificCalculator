@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="horizontal"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#1E1E1E"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scientific Calculator"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textStyle="bold"
+            android:background="#2C2C2C" />
+
+
+        <EditText
+            android:id="@+id/editTextInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_expression"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#888888"
+            android:textSize="24sp"
+            android:background="#333333"
+            android:padding="10dp"
+            android:importantForAutofill="yes" />
+
+        <GridLayout
+            android:id="@+id/buttonGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="5"
+            android:padding="4dp">
+
+            <!-- Existing Buttons -->
+            <Button android:id="@+id/btnClear" android:text="C" />
+            <Button android:id="@+id/btnBackspace" android:text="⌫" />
+            <Button android:id="@+id/btnOpenParen" android:text="(" />
+            <Button android:id="@+id/btnCloseParen" android:text=")" />
+            <Button android:id="@+id/btnDivide" android:text="/" />
+
+            <Button android:id="@+id/btn7" android:text="7" />
+            <Button android:id="@+id/btn8" android:text="8" />
+            <Button android:id="@+id/btn9" android:text="9" />
+            <Button android:id="@+id/btnMultiply" android:text="*" />
+            <Button android:id="@+id/btnPower" android:text="^" />
+
+            <Button android:id="@+id/btn4" android:text="4" />
+            <Button android:id="@+id/btn5" android:text="5" />
+            <Button android:id="@+id/btn6" android:text="6" />
+            <Button android:id="@+id/btnMinus" android:text="-" />
+            <Button android:id="@+id/btnSqrt" android:text="√" />
+
+            <Button android:id="@+id/btn1" android:text="1" />
+            <Button android:id="@+id/btn2" android:text="2" />
+            <Button android:id="@+id/btn3" android:text="3" />
+            <Button android:id="@+id/btnPlus" android:text="+" />
+            <Button android:id="@+id/btnLog" android:text="log" />
+
+            <Button android:id="@+id/btn0" android:text="0" />
+            <Button android:id="@+id/btnDot" android:text="." />
+            <Button android:id="@+id/btnEqual" android:text="=" />
+            <Button android:id="@+id/btnAns" android:text="Ans" />
+            <Button android:id="@+id/btnLn" android:text="ln" />
+
+            <Button android:id="@+id/btnSin" android:text="sin" />
+            <Button android:id="@+id/btnCos" android:text="cos" />
+            <Button android:id="@+id/btnTan" android:text="tan" />
+            <Button android:id="@+id/btnFact" android:text="!" />
+            <Button android:id="@+id/btnPi" android:text="π" />
+
+            <Button android:id="@+id/btnE" android:text="e" />
+            <Button android:id="@+id/btnPercent" android:text="%" />
+            <Button android:id="@+id/btnAbs" android:text="|x|" />
+            <Button android:id="@+id/btnExp" android:text="exp" />
+            <Button android:id="@+id/btnMod" android:text="mod" />
+
+            <Button android:id="@+id/btnSinInv" android:text="sin⁻¹" />
+            <Button android:id="@+id/btnCosInv" android:text="cos⁻¹" />
+            <Button android:id="@+id/btnTanInv" android:text="tan⁻¹" />
+            <Button android:id="@+id/btnPrev" android:text="◀" />
+            <Button android:id="@+id/btnNext" android:text="▶" />
+
+            <!-- ✅ Added Missing Buttons -->
+            <Button android:id="@+id/btnDegRad" android:text="DEG/RAD" />
+            <Button android:id="@+id/btnPow" android:text="^" />
+            <Button android:id="@+id/btnTenPowX" android:text="10^x" />
+            <Button android:id="@+id/btnExpX" android:text="e^x" />
+            <Button android:id="@+id/btnSec" android:text="sec" />
+            <Button android:id="@+id/btnCosec" android:text="cosec" />
+            <Button android:id="@+id/btnCot" android:text="cot" />
+
+
+        </GridLayout>
+    </LinearLayout>
+</HorizontalScrollView>
