@@ -28,3 +28,12 @@ UI: XML (ConstraintLayout)
 Library: exp4j for expression evaluation
 
 IDE: Android Studio
+
+User Interface of Calculator App!
+## App Screenshot
+![Calculator UI](https://github.com/mandalenikita3![ui](https://github.com/user-attachments/assets/77f82832-02d4-4b32-b55a-b1c462065fcd)
+![ui](https://github.com/user-attachments/assets/fb0b640a-bab4-4d71-bd50-c78b14f9e630)
+68/ScientificCalculator/blob/main/ui.jpg?raw=true)
+
+
+
